@@ -1,0 +1,38 @@
+# ===============================
+# Dependencias de la Aplicación
+# ===============================
+
+# Framework principal para la interfaz gráfica
+PyQt5==5.15.10
+
+# Componente específico para el visor de PDF integrado
+PyQtWebEngine==5.15.6
+
+# Para leer y manipular datos de archivos Excel y CSV
+pandas==2.2.2
+
+# Motor para que pandas pueda trabajar con archivos .xlsx
+openpyxl==3.1.2
+
+# Para la integración con aplicaciones de Windows (Outlook)
+pywin32==306
+
+# Para la integración con la API de IA de Google
+google-generativeai>=0.8.0
+
+# Para extraer texto de archivos PDF
+PyPDF2
+
+# Para extraer texto de archivos DOCX
+python-docx
+
+
+# ============================================
+# Dependencias de Desarrollo (para pruebas)
+# ============================================
+
+# Framework para ejecutar las pruebas unitarias y de integración
+pytest==8.2.2
+
+# Plugin para facilitar la creación de 'mocks' en las pruebas
+pytest-mock==3.14.0
